@@ -10,7 +10,7 @@ const svg = d3.select("body").append("svg")
     .attr("width", width)
     .attr("height", height);
 
-const jsonOrganisation = require("./organisation.json");
+const jsonOrganisation = require("./organization.json");
 
 function collapse(d) {
     if (d.children) {
@@ -20,4 +20,4 @@ function collapse(d) {
     }
 }
 
-new OrganizationChart({ svg: svg, organizationJson: jsonOrganisation} );
+new OrganizationChart({ svg: svg, organizationJson: jsonOrganisation, expanseDirection: 'vertical'} );

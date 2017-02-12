@@ -17127,7 +17127,7 @@ function collapse(d) {
     }
 }
 
-new __WEBPACK_IMPORTED_MODULE_1__OrganizationChart_js__["a" /* default */]({ svg: svg, organizationJson: jsonOrganisation} );
+new __WEBPACK_IMPORTED_MODULE_1__OrganizationChart_js__["a" /* default */]({ svg: svg, organizationJson: jsonOrganisation, expanseDirection: 'horizontal'} );
 
 /***/ })
 /******/ ]);
